@@ -1,0 +1,17 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="shortestpathstyle.css">
+  </head>
+  <body>
+    <div class="menu">
+      <button class="button" onclick="getEdgeType()">Add Edge</button>
+      <div><button class="button" onClick="show()">Choose Algo</button>
+        <div id="option"><a href="#" onclick="shortestPath()">Shortest Path</a><br><br><hr><a href="#">other random</a><br><br><hr></div>
+        </div>
+      <button class="button" onClick="reset()">Reset</button>
+    </div>
+  <canvas id="mycanvas" width="1300" height="700" onclick="drawNode(event)"></canvas>
+  <script src="shortestpathscript.js"></script>
+  </body>
+</html>
